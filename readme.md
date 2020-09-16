@@ -6,9 +6,9 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 
 ## Bronnenlijst
-1. -bron 1-
-2. -bron 2-
-3. -...-
+1. Geëmbedde YouTube video op mijn website: https://www.youtube.com/watch?v=54_tiHj2x2w
+2. Roboto font: https://fonts.google.com/specimen/Roboto
+3. Material icons: https://material.io/resources/icons/?style=baseline
 
 
 
@@ -36,13 +36,21 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Voortgang 1 (week 3)
 
-### Stand van zaken
+ Stand van zaken
 
--dit ging goed & dit was lastig-
+#### Wat goed ging:
+
++ Het gaat nu goed met de progressie
+
+#### Wat minder ging:
+
+- begon wat traag doordat ik weer even moest wennen aan CSS
+- Zat lang vast met Roboto van Google Fonts importeren
+- Bepaalde afmetingen zijn nog niet identiek en worstel daar het meeste mee
 
 **Screenshot(s):**
 
--screenshot(s) van hoe ver je bent-
+![progressie1](images/progressie1.png)
 
 ### Agenda voor meeting
 

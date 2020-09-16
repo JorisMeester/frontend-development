@@ -1,5 +1,271 @@
 /* CSS Document */
+
+/* Colors */
+
+/*
+#000000
+#121212
+#181818
+#202020
+#303030
+#6f6f6f
+#909090
+$aaaaaa
+
+*/
+
 *, *::after, *::before {
-  box-sizing:border-box;  
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
 }
 
+a:visited, a:link {
+  color: unset;
+  text-decoration: none;
+}
+
+button {
+  background-color: unset;
+  border: unset;
+  text-transform: uppercase;
+  color: white;
+  padding: unset;
+}
+
+input {
+  background-color: #121212;
+  border: 1px solid #303030;
+}
+
+body {
+  margin: 0;
+  background-color: #181818;
+  color: white;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: white;
+}
+
+h1 {
+  font-size: 18px;
+}
+
+header {
+  background-color: #202020;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 56px;
+}
+
+header>nav {
+  width: 204px;
+}
+
+header, main {
+  padding: 24px;
+}
+
+main {
+  display: flex;
+  padding: 24px auto;
+  justify-content: center;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav>ul>li, #menu-button {
+  padding: 8px;
+  height: 40px;
+  width: 40px;
+}
+
+.recommendation img {
+  width: 168px;
+  height: 94px;
+}
+
+#logo {
+  height: 18px;
+  margin: 3px 12px;
+}
+
+#left-side {
+  padding-right: 24px;
+}
+
+#right-side {
+  width: 402px;
+  margin-right: 24px;
+}
+
+#search-form {
+  display: flex;
+}
+
+#search-form>input {
+  height: 32px;
+  padding: 0 10px;
+  font-size: medium;
+  font-weight: 400;
+  border-radius: 2px 0 0 2px;
+  width: 30vw;
+}
+
+#search-form>button {
+  background-color: #303030;
+  border: 1px solid transparent;
+  width: 77px;
+  border-radius: 0 2px 2px 0;
+  color: #6f6f6f;
+}
+
+#video iframe {
+  width: 1280px;
+  height: 720px;
+}
+
+#video>div:first-of-type {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  font-size: 14px;
+  color: #aaaaaa;
+  padding: 20px 0 8px;
+}
+
+#video>div:first-of-type>div {
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#video li>button{
+  display: flex;
+  align-items: center;
+  color: #aaaaaa;
+  padding-right: 8px;
+  }
+
+  #video li>button>i{
+    width: 36px;
+    height: 36px;
+    padding: 8px;
+    }
+
+#share {
+  transform: scale(-1, 1);
+}
+
+#video>div:last-of-type{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 16px;
+  margin-bottom: 12px;
+}
+
+#channel-info{
+  display: flex;
+}
+
+#subscribe-button {
+  font-weight: 500;
+  background-color: #cc0000;
+  margin: 0 4px;
+  padding: 10px 16px;
+  border-radius: 2px;
+}
+
+#first-recommendation {
+  padding-bottom: 8px;
+  margin-bottom: 16px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+#first-recommendation>div {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+#first-recommendation .recommendation {
+  padding-bottom: 8px;
+}
+
+#up-next {
+  font-size: 16px;
+}
+
+.recommendation {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  color: #aaaaaa;
+}
+
+.recommendation>div:first-of-type {
+  position: relative;
+}
+
+.recommendation>div:last-of-type {
+  padding-right: 24px;
+  width: 226px;
+  font-size: 13px;
+}
+
+.recommendation img {
+  width: 168px;
+  height: 94px;
+}
+
+.recommendation-length {
+  background-color: #00000080;
+  border: 2px solid transparent;
+  border-radius: 2px;
+  font-size: 12px;
+  font-weight: 500;
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+}
+
+.recommendation h3 {
+  margin-top: 0;
+  font-size: 14px;
+}
+
+.toggler {
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 500;
+  color: #909090;
+  align-items: center;
+  display: flex;
+}
+
+.toggler>button {
+  position: relative;
+  margin-left: 8px;
+}
+
+.toggler-bar {
+  background-color: #606060;
+  border-radius: 8px;
+  margin: 4px 1px;
+  width: 36px;
+  height: 14px;
+}
+
+.toggler-button {
+  position: absolute;
+  background-color: #909090;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  top: 1px;
+}
