@@ -36,7 +36,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Voortgang 1 (week 3)
 
- Stand van zaken
+### Stand van zaken
 
 #### Wat goed ging:
 
@@ -44,12 +44,13 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 #### Wat minder ging:
 
-- begon wat traag doordat ik weer even moest wennen aan CSS
+- Begon wat traag doordat ik weer even moest wennen aan CSS
 - Zat lang vast met Roboto van Google Fonts importeren
 - Bepaalde afmetingen zijn nog niet identiek en worstel daar het meeste mee
 
 **Screenshot(s):**
 
+Video pagina (moet nog de Playlist en de reacties nabouwen)
 ![progressie1](images/progressie1.png)
 
 ### Agenda voor meeting
