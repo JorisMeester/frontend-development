@@ -55,11 +55,11 @@ Video pagina (moet nog de Playlist en de reacties nabouwen)
 
 ### Agenda voor meeting
 
--samen met je groepje opstellen-
+- Ik ga een vraag stellen over herhalende elementen in html (de suggesties rechts op de videopagina) en of het slim is dat met een loop door een array te doen
 
 ### Verslag van meeting
 
--na afloop snel uitkomsten vastleggen-
+- Ze vonden het een goed idee, maar alleen als ik zeker wist dat ik dat zelf kan. En ik denk van wel.
 
 
 
