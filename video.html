@@ -18,84 +18,64 @@
 			<button id="menu-button"><i class="material-icons">menu</i></button>
 			<a href=""><img id="logo" src="images/logo.png"></a>
 		</div>
-		<form id="search-form" action="">
-			<input type="search" aria-label="search" placeholder="Search">
-			<button type="submit" aria-label="search button"><i class="material-icons">search</i></button>
-		</form>
 		<nav>
 			<ul>
-				<li><button><i class="material-icons">video_call</i></button></li>
-				<li><button><i class="material-icons">apps</i></button></li>
-				<li><button><i class="material-icons">notifications</i></button></li>
-				<li><button><i class="material-icons">account_circle</i></button></li>
+				<li><button type="submit" aria-label="search button"><i class="material-icons">search</i></button></li>
+				<li><button><i class="material-icons">more_vertic</i></button></li>
 			</ul>
 		</nav>
 	</header>
 
 	<main>
-		<div id="left-side">
 
-			<section id="video">
-				<iframe src="https://www.youtube.com/embed/54_tiHj2x2w" frameborder="0"
-					allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-					allowfullscreen></iframe>
+		<section id="video">
+			<iframe src="https://www.youtube.com/embed/qUVWbEFrRSQ" frameborder="0"
+				allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+				allowfullscreen></iframe>
+			<section id="video-info">
 				<div>
-					<h1>Video titel</h1>
-					<div>
-						<div>10,000 views • 1 April 2010</div>
-						<ul>
-							<li><button><i class="material-icons">thumb_up</i><span>1.5K</span></button></li>
-							<li><button><i class="material-icons">thumb_down</i>100</button></li>
-							<li><button><i id="share" class="material-icons">reply</i>share</button></li>
-							<li><button><i class="material-icons">playlist_add</i>save</button></li>
-							<li><button><i class="material-icons">more_horiz</i></button></li>
-						</ul>
-					</div>
+					<h1>This is such a long title I use it to test something out</h1>
+					<button><i class="material-icons">keyboard_arrow_down</i></button>
 				</div>
-				<div>
-					<a id="channel-info" href=""><i class="material-icons">account_circle</i>
-						<div>Giorgio Maestro</div>
-					</a>
-					<button id="subscribe-button">Subscribe</button>
-				</div>
+				<p><span>10K views</span><span id="video-date"> • 1 April 2010</span></p>
 			</section>
 
-			<section id="comments">
-				<section class="comment">
-					<p>Lorem ipsum dolor sit amet</p>
-				</section>
+			<section id="video-options">
+				<ul>
+					<li><button><i class="material-icons">thumb_up</i><span>1.5K</span></button></li>
+					<li><button><i class="material-icons">thumb_down</i>100</button></li>
+					<li><button><i id="share" class="material-icons">reply</i>Share</button></li>
+					<li><button><i class="material-icons">playlist_add</i>Save</button></li>
+					<li><button><i class="material-icons">flag</i>Report</button></li>
+				</ul>
 			</section>
-
-		</div>
-
-		<div id="right-side">
-
-			<section id="playlist"><a href="">Playlist</a></section>
-
-			<section id="recommendations">
-				<section id="first-recommendation">
+			<section id="channel-info">
+				<a href="">
+					<i class="material-icons">account_circle</i>
 					<div>
-						<div id="up-next">Up Next</div>
-						<div class="toggler">
-							<div>Autoplay</div>
-							<button>
-								<div class="toggler-bar"></div>
-								<div class="toggler-button"></div>
-							</button>
-						</div>
+						<h3>Giorgio Maestro</h3>
+						<p>1K subscribers</p>
 					</div>
-					<section class="recommendation">
-						<div>
-							<img src="" alt="">
-							<div class="recommendation-length">1:00:00</div>
-						</div>
-						<div>
-							<h3>This is such a long title I use it to test something out</h3>
-							<div>Kanaal</div>
-							<div>10K views • 1 year ago</div>
-						</div>
-					</section>
-				</section>
+				</a>
+				<button id="subscribe-button">Subscribe</button>
+				</div>
+			</section>
+		</section>
+
+		<!-- <section id="playlist"><a href="">Playlist</a></section> -->
+
+		<section id="recommendations">
+			<section id="first-recommendation">
+				<div>
+					<h3>Up Next</h3>
+					<div class="toggler">
+						<div>Autoplay</div>
+						<button>
+							<div class="toggler-bar"></div>
+							<div class="toggler-button"></div>
+						</button>
+					</div>
+				</div>
 				<section class="recommendation">
 					<div>
 						<img src="" alt="">
@@ -103,13 +83,46 @@
 					</div>
 					<div>
 						<h3>This is such a long title I use it to test something out</h3>
-						<div>Kanaal</div>
-						<div>10K views • 1 year ago</div>
+						<p>Kanaal</p>
+						<p>10K views • 1 year ago</p>
 					</div>
 				</section>
 			</section>
-
-		</div>
+			<section class="recommendation">
+				<div>
+					<img src="" alt="">
+					<div class="recommendation-length">1:00:00</div>
+				</div>
+				<div>
+					<h3>This is such a long title I use it to test something out</h3>
+					<p>Kanaal</p>
+					<p>10K views • 1 year ago</p>
+				</div>
+			</section>
+		</section>
+		<section id="comment-section">
+			<section id="comment-header">
+				<h1>Comments<span> • 15</span></h1>
+				<button><i class="material-icons">keyboard_arrow_down</i></button>
+			</section>
+			<section id="comment-form">
+				<form action="">
+					<div>
+						<i class="material-icons">account_circle</i>
+						<textarea placeholder="Add a public comment..."></textarea>
+					</div>
+					<div>
+						<button>cancel</button>
+						<button id="comment-submit">comment</button>
+					</div>
+				</form>
+			</section>
+			<section id="comments">
+				<section class="comment">
+					<p>Lorem ipsum dolor sit amet</p>
+				</section>
+			</section>
+		</section>
 
 	</main>
 	<script src="scripts/script.js"></script>

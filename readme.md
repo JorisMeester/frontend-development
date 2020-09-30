@@ -30,8 +30,28 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Voortgang 2 (week 5)
 
--same as voortgang 1-
+### Stand van zaken
 
+#### Wat goed ging:
+
++ Ik heb makkelijk de website kunnen ombouwen naar mobiel
+
+#### Wat minder ging:
+
+- Ik ben erachter gekomen dat ik mobile first moest ontwikkelen zelfs al kies ik de Surface focus en nu moest ik mijn website ombouwen.
+
+**Screenshot(s):**
+
+Video pagina (moet nog de Playlist en de reacties nabouwen)
+![progressie2](images/progressie2.png)
+
+### Agenda voor meeting
+
+- Ik ga een vraag stellen over herhalende elementen in html (de suggesties rechts op de videopagina) en of het slim is dat met een loop door een array te doen
+
+### Verslag van meeting
+
+- Ze vonden het een goed idee, maar alleen als ik zeker wist dat ik dat zelf kan. En ik denk van wel.
 
 
 ## Voortgang 1 (week 3)
