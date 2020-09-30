@@ -43,6 +43,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 **Screenshot(s):**
 
 Video pagina (moet nog de Playlist en de reacties nabouwen)
+
 ![progressie2](images/progressie2.png)
 
 ### Agenda voor meeting
