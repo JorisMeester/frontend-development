@@ -48,11 +48,14 @@ Video pagina (moet nog de Playlist en de reacties nabouwen)
 
 ### Agenda voor meeting
 
-- Ik ga een vraag stellen over herhalende elementen in html (de suggesties rechts op de videopagina) en of het slim is dat met een loop door een array te doen
+Naomi: Javascript toepassen,+- 10 min.
+Tim: redused motion, animations activeren,+-10 min.
+Saphia: extra uitleg Grids responsive maken, formulieren, Javascript, +- 10 min.
+Joris: accordeon,loopen array videos,comments array +-10 min.
 
 ### Verslag van meeting
 
-- Ze vonden het een goed idee, maar alleen als ik zeker wist dat ik dat zelf kan. En ik denk van wel.
+
 
 
 ## Voortgang 1 (week 3)
