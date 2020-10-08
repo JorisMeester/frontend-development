@@ -24,8 +24,36 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Voortgang 3 (week 6)
 
--same as voortgang 1-
+### Stand van zaken
 
+#### Wat goed ging:
+
++ Ik heb alle html en css af van de videopagina
++ Ik ben begonnen aan een javascript functie om herhalende html content te genereren
+
+#### Wat minder ging:
+
+- Ik denk dat ik veel id's en classes moet gaan vervangen met nth-of-type selectors
+
+**Screenshot(s):**
+
+Video pagina, nu met comments
+
+![progressie3](images/progressie3.png)
+
+### Agenda voor meeting
+
+- Naomi: voorbeelden van states +-10 min.
+- Tim: voorbeelden van states +-10 min.
+- Saphia: afbeeldingen na h1, javascript +-10 min.
+- Joris: is mijn javascript code nu efficient? +-10 min.
+- Martine: naar code laten kijken +-10 min.
+
+### Verslag van meeting
+
+- Blijkbaar wilt school dat we veel nth-of-type gebruiken om onze elementen te selecteren ipv id's en classes
+- Ik snap nu wat er wordt verwacht bij de verschillende states (hover, focus, etc)
+- Blijkbaar hoef ik niet losse variabelen aan te maken voor het gebruik van objecten en kan ik ze direct aanmaken in de array
 
 
 ## Voortgang 2 (week 5)
@@ -48,15 +76,15 @@ Video pagina (moet nog de Playlist en de reacties nabouwen)
 
 ### Agenda voor meeting
 
-Naomi: Javascript toepassen,+- 10 min.
-Tim: redused motion, animations activeren,+-10 min.
-Saphia: extra uitleg Grids responsive maken, formulieren, Javascript, +- 10 min.
-Joris: accordeon,loopen array videos,comments array +-10 min.
+- Naomi: Javascript toepassen +- 10 min.
+- Tim: redused motion, animations activeren +-10 min.
+- Saphia: extra uitleg Grids responsive maken, formulieren, Javascript +- 10 min.
+- Joris: accordeon, loopen array videos,comments array +-10 min.
 
 ### Verslag van meeting
 
-
-
+- Sanne vond het een goed idee om de video's en comments met javascript te genereren
+- Ik snapte niet waarom mijn font-size groter was dan op YouTube als ik dezelfde hoeveelheid rem instelde, dat is ligt dus aan de root font-size die op het <html> element staat ingesteld.
 
 ## Voortgang 1 (week 3)
 
