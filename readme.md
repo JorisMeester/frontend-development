@@ -17,7 +17,15 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Eindgesprek (week 7/8)
 
--dit ging goed & dit was lastig-
+#### Wat goed ging:
+
++ De JS functie die items genereert is uiteindelijk gelukt
++ De website is bijna identiek
+
+#### Wat minder ging:
+
+- Ik heb verder geen animaties
+- Ik had moeite met de syntax van de foreach en innerhtml met object properties erin
 
 **Screenshot(s):**
 
