@@ -6,9 +6,12 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 
 ## Bronnenlijst
-1. Geëmbedde YouTube video op mijn website: https://www.youtube.com/watch?v=54_tiHj2x2w
+1. Geëmbedde YouTube video op mijn website: https://www.youtube.com/watch?&v=qUVWbEFrRSQ
 2. Roboto font: https://fonts.google.com/specimen/Roboto
 3. Material icons: https://material.io/resources/icons/?style=baseline
+4. Video info 1: https://www.youtube.com/watch?v=EEDvf6VclD4
+5. Video info 2: https://www.youtube.com/watch?v=vwqpjLfmjeQ
+6. Video info 3: https://www.youtube.com/watch?v=wn6rI_0QiKc
 
 
 

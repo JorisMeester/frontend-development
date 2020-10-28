@@ -79,11 +79,10 @@ header {
   justify-content: space-between;
   align-items: center;
   height: 48px;
-  top:0;
-  
+  top: 0;
 }
 
-header, #video > iframe{
+header, #video>iframe {
   width: 100vw;
   position: fixed;
   z-index: 100;
@@ -104,11 +103,6 @@ header, main>section>* {
 
 header>div:first-of-type>button {
   display: none;
-}
-
-main {
-  justify-content: center;
-  margin-top: calc(25vh + 48px);
 }
 
 ul {
@@ -149,9 +143,16 @@ nav>ul>li, #menu-button {
   color: white;
 }
 
+/* Video page */
+
+main#video-page {
+  justify-content: center;
+  margin-top: calc(25vh + 48px);
+}
+
 #video iframe {
   padding: unset;
-  top:48px;
+  top: 48px;
   height: 25vh;
 }
 
@@ -231,8 +232,9 @@ nav>ul>li, #menu-button {
   display: flex;
 }
 
-#channel-info i {
-  font-size: 34px;
+#channel-info img {
+  height: auto;
+  width: 34px;
   margin-right: 12px;
 }
 
@@ -270,7 +272,6 @@ nav>ul>li, #menu-button {
 .recommendation {
   width: 100%;
   display: flex;
-  justify-content: space-between;
   color: #aaaaaa;
   margin-top: 12px;
   padding-right: 12px;
@@ -324,6 +325,7 @@ nav>ul>li, #menu-button {
 }
 
 .toggler-bar {
+  display: block;
   background-color: #606060;
   border-radius: 10px;
   margin: 4px 1px;
@@ -333,6 +335,7 @@ nav>ul>li, #menu-button {
 
 .toggler-button {
   position: absolute;
+  display: block;
   top: 0px;
   background-color: #00000080;
   width: 20px;
@@ -398,8 +401,8 @@ nav>ul>li, #menu-button {
   border-bottom: 1px solid hsla(0, 0%, 100%, 0.10);
 }
 
-.comment>a>i {
-  font-size: 48px;
+.comment>a>img {
+  height: 48px;
 }
 
 .comment>div {
@@ -446,4 +449,82 @@ nav>ul>li, #menu-button {
 
 .comment-details button i {
   margin-right: 4px;
+}
+
+/* Subscriptions page */
+
+main#subscriptions-page {
+  justify-content: center;
+  margin-top: 48px;
+}
+
+main#subscriptions-page>section>* {
+  padding: 0;
+}
+
+#subscriptions {
+  justify-content: space-between;
+  align-items: center;
+}
+
+#subscriptions>a {
+  color: #2793e6;
+  height: 40px;
+  width: 40px;
+  padding: 8px;
+}
+
+#subscriptions, #subscriptions ul {
+  display: flex;
+}
+
+#subscriptions ul>li {
+  margin: 8px;
+}
+
+#subscriptions ul>li>i {
+  font-size: 32px;
+}
+
+#subscriptions ul>li>p {
+  font-size: 30px;
+  color: #2793e6;
+  line-height: 5px;
+  text-align: center;
+}
+
+.subscription-video>div:first-of-type {
+  position: relative;
+}
+
+.subscription-video>div:first-of-type img {
+  width: 100%;
+  height: 212px;
+}
+
+.subscription-video>div:last-of-type {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 12px;
+  margin: 12px 0 24px;
+}
+
+.subscription-video>div:last-of-type i:first-of-type {
+  font-size: 40px;
+}
+
+.subscription-video>div:last-of-type>div {
+  margin-left: 12px;
+}
+
+.subscription-video>div:last-of-type i:last-of-type {
+  padding: 8px;
+  width: 40px;
+  height: 40px;
+}
+
+.subscription-video>div:first-of-type .recommendation-length {
+  position: absolute;
+  bottom: 9px;
 }

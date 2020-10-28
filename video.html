@@ -16,7 +16,7 @@
 	<header>
 		<div>
 			<button id="menu-button"><i class="material-icons">menu</i></button>
-			<a href=""><img id="logo" src="images/logo.png"></a>
+			<a href="https://www.youtube.com/"><img id="logo" alt="YouTube's logo" src="images/logo.png"></a>
 		</div>
 		<nav>
 			<ul>
@@ -26,18 +26,17 @@
 		</nav>
 	</header>
 
-	<main>
-
+	<main id="video-page">
 		<section id="video">
 			<iframe src="https://www.youtube.com/embed/qUVWbEFrRSQ" frameborder="0"
 				allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
 				allowfullscreen></iframe>
 			<section id="video-info">
 				<div>
-					<h1>This is such a long title I use it to test something out</h1>
+					<h1>Midicronica - San Francisco [True Instrumental]</h1>
 					<button><i class="material-icons">keyboard_arrow_down</i></button>
 				</div>
-				<p>10K views<span id="video-date"> • 1 April 2010</span></p>
+				<p>1.5K views<span id="video-date"> • 3 April 2020</span></p>
 			</section>
 
 			<section id="video-options">
@@ -50,19 +49,16 @@
 				</ul>
 			</section>
 			<section id="channel-info">
-				<a href="">
-					<i class="material-icons">account_circle</i>
+				<a href="https://m.youtube.com/user/0SilverMagi0">
+					<img src="images/profile-picture.png" alt="image that represents this channel">
 					<div>
-						<h3>Giorgio Maestro</h3>
+						<h3>Indigo</h3>
 						<p>1K subscribers</p>
 					</div>
 				</a>
 				<button id="subscribe-button">Subscribe</button>
-				</div>
 			</section>
 		</section>
-
-		<!-- <section id="playlist"><a href="">Playlist</a></section> -->
 
 		<section id="recommendations">
 			<section id="first-recommendation">
@@ -71,42 +67,21 @@
 					<div class="toggler">
 						<div>Autoplay</div>
 						<button>
-							<div class="toggler-bar"></div>
-							<div class="toggler-button"></div>
+							<span class="toggler-bar"></span>
+							<span class="toggler-button"></span>
 						</button>
 					</div>
 				</div>
-				<section class="recommendation">
-					<div>
-						<img src="" alt="">
-						<div class="recommendation-length">1:00:00</div>
-					</div>
-					<div>
-						<h3>This is such a long title I use it to test something out</h3>
-						<p>Kanaal</p>
-						<p>10K views • 1 year ago</p>
-					</div>
-				</section>
 			</section>
-			<section class="recommendation">
-				<div>
-					<img src="" alt="">
-					<div class="recommendation-length">1:00:00</div>
-				</div>
-				<div>
-					<h3>This is such a long title I use it to test something out</h3>
-					<p>Kanaal</p>
-					<p>10K views • 1 year ago</p>
-				</div>
-			</section>
+			<!-- This where JS loops the recommended video's -->
 		</section>
 		<section id="comment-section">
 			<section id="comment-header">
-				<h1>Comments<span> • 15</span></h1>
+				<h1>Comments<span> • 2</span></h1>
 				<button><i class="material-icons">keyboard_arrow_down</i></button>
 			</section>
 			<section id="comment-form">
-				<form action="">
+				<form action="postComment">
 					<div>
 						<i class="material-icons">account_circle</i>
 						<textarea placeholder="Add a public comment..."></textarea>
@@ -118,37 +93,12 @@
 				</form>
 			</section>
 			<section id="comments">
-				<section class="comment">
-					<a href="">
-						<i class="material-icons">account_circle</i>
-					</a>
-					<div>
-						<a href="">
-							<h4>Giorgio Maestro</h4>
-						</a>
-						<p>Lorem ipsum dolor sit amet</p>
-						<div class="comment-details">
-							<p>10 hours ago • </p>
-							<button>
-								<i class="material-icons">thumb_up</i>
-								8
-							</button>
-							<button>
-								<i class="material-icons">thumb_down</i>
-							</button>
-							<button>
-								<i class="material-icons">comment</i>
-								2
-							</button>
-						</div>
-						<button>show more replies</button>
-					</div>
-				</section>
+				<!-- This where JS loops the recommended comments -->
 			</section>
 		</section>
-
 	</main>
-	<script src="scripts/script.js"></script>
+
+	<script src="scripts/script2.js"></script>
 </body>
 
 </html>
