@@ -1,9 +1,9 @@
 // JavaScript Document
 
 var videos = [
-    { title: 'Street Fighter 3 Third Strike Complete Soundtrack OST', channel: 'Video Game Tracks', profilePicture: 'images/profile-picture.png', views: '319K', timeSinceUpload: '4 years ago', thumbnail: 'images/thumbnail1.webp', videoLength: '1:16:24', link: 'https://www.youtube.com/watch?v=EEDvf6VclD4' },
-    { title: 'King of Fighters XIII OST Stormy Saxophone 5 (Theme of Yagami Team)', channel: 'ss4shenlong', profilePicture: 'images/profile-picture.png', views: '770K', timeSinceUpload: '10 years ago', thumbnail: 'images/thumbnail3.webp', videoLength: '5:44', link: 'https://www.youtube.com/watch?v=vwqpjLfmjeQ' },
-    { title: 'When Everything Feels Pointless, Ask These Questions', channel: 'WheezyWaiter', profilePicture: 'images/profile-picture.png', views: '22K', timeSinceUpload: 'yesterday', thumbnail: 'images/thumbnail2.webp', videoLength: '8:10', link: 'https://www.youtube.com/watch?v=wn6rI_0QiKc' }
+    { title: 'When Everything Feels Pointless, Ask These Questions', channel: 'WheezyWaiter', profilePicture: 'images/wheezywaiter-pfp.jpg', views: '22K', timeSinceUpload: 'yesterday', thumbnail: 'images/thumbnail2.webp', videoLength: '8:10', link: 'https://www.youtube.com/watch?v=wn6rI_0QiKc' },
+    { title: 'King of Fighters XIII OST Stormy Saxophone 5 (Theme of Yagami Team)', channel: 'ss4shenlong', profilePicture: 'images/ss4shenlong-pfp.jpg', views: '770K', timeSinceUpload: '10 years ago', thumbnail: 'images/thumbnail3.webp', videoLength: '5:44', link: 'https://www.youtube.com/watch?v=vwqpjLfmjeQ' },
+    { title: 'Street Fighter 3 Third Strike Complete Soundtrack OST', channel: 'Video Game Tracks', profilePicture: 'images/video-game-tracks-pfp.jpg', views: '319K', timeSinceUpload: '4 years ago', thumbnail: 'images/thumbnail1.webp', videoLength: '1:16:24', link: 'https://www.youtube.com/watch?v=EEDvf6VclD4' }
 ];
 var comments = [
     { text: 'Nice song, really smooth!', channel: 'Carl Johnson', profilePicture: 'images/profile-picture.png', likes: '5', comments: '2', timeSincePost: '10 hours ago' },

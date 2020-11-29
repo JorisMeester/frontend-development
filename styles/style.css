@@ -74,12 +74,13 @@ p {
 /* Page structure */
 
 header {
-  background-color: #202020;
+  background-color: #282828;
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 48px;
   top: 0;
+  padding-left: 12px;
 }
 
 header, #video>iframe {
@@ -95,10 +96,6 @@ header>nav {
 header>nav>ul {
   float: right;
   display: flex;
-}
-
-header, main>section>* {
-  padding: 0 0 0 12px;
 }
 
 header>div:first-of-type>button {
@@ -162,8 +159,9 @@ main#video-page {
 
 #video-info {
   font-size: 12px;
-  color: #aaaaaa;
+  color: #eeeeee;
   padding: 12px;
+  font-weight: 500;
 }
 
 #video-info>div {
@@ -258,7 +256,7 @@ main#video-page {
 
 #recommendations {
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-  padding-bottom: 12px;
+  padding: 0 0 12px 12px;
 }
 
 #first-recommendation>div {
@@ -297,7 +295,7 @@ main#video-page {
 }
 
 .recommendation-length {
-  background-color: #00000080;
+  background-color: #111111cc;
   color: white;
   border: 2px solid transparent;
   border-radius: 2px;
@@ -458,10 +456,6 @@ main#subscriptions-page {
   margin-top: 48px;
 }
 
-main#subscriptions-page>section>* {
-  padding: 0;
-}
-
 #subscriptions {
   justify-content: space-between;
   align-items: center;
@@ -480,17 +474,17 @@ main#subscriptions-page>section>* {
 
 #subscriptions ul>li {
   margin: 8px;
+  position: relative;
 }
 
-#subscriptions ul>li>i {
-  font-size: 32px;
+#subscriptions ul>li>img {
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
 }
 
-#subscriptions ul>li>p {
-  font-size: 30px;
-  color: #2793e6;
-  line-height: 5px;
-  text-align: center;
+.subscription-video h3 {
+  margin-bottom: 3px;
 }
 
 .subscription-video>div:first-of-type {
@@ -499,27 +493,33 @@ main#subscriptions-page>section>* {
 
 .subscription-video>div:first-of-type img {
   width: 100%;
-  height: 212px;
 }
 
 .subscription-video>div:last-of-type {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
   padding: 0 12px;
   margin: 12px 0 24px;
 }
 
-.subscription-video>div:last-of-type i:first-of-type {
-  font-size: 40px;
+.subscription-video>div:last-of-type button {
+  height: 40px;
+  width: 40px;
+  padding: 8px;
+}
+
+.subscription-video>div:last-of-type i:last-of-type {
+  font-size: 24px;
+  max-width: 24px;
+  overflow-x: hidden;
 }
 
 .subscription-video>div:last-of-type>div {
   margin-left: 12px;
+  width: 100%;
 }
 
-.subscription-video>div:last-of-type i:last-of-type {
-  padding: 8px;
+.subscription-video>div:last-of-type img:last-of-type {
+  border-radius: 50%;
   width: 40px;
   height: 40px;
 }

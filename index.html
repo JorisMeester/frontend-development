@@ -1,12 +1,12 @@
 <!doctype html>
-<html lang="nl">
+<html lang="en">
 
 <head>
 	<meta charset="UTF-8">
-	<meta name="author" content="jouw naam">
+	<meta name="author" content="Joris Meester">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<title>Abonnementen - Youtube</title>
+	<title>Subscriptions - Youtube</title>
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<link href="styles/style.css" rel="stylesheet">
@@ -14,10 +14,7 @@
 
 <body>
 	<header>
-		<div>
-			<button id="menu-button"><i class="material-icons">menu</i></button>
-			<a href="https://m.youtube.com/"><img id="logo" alt="YouTube's logo" src="images/logo.png"></a>
-		</div>
+		<a href="https://m.youtube.com/"><img id="logo" alt="YouTube's logo" src="images/logo.png"></a>
 		<nav>
 			<ul>
 				<li><button type="submit" aria-label="search button"><i class="material-icons">search</i></button></li>
@@ -27,15 +24,13 @@
 	</header>
 
 	<main id="subscriptions-page">
-		<section id="subscriptions">
+		<section id="subscriptions" aria-label="[]">
 			<ul>
-				<li><i class="material-icons">account_circle</i>
-					<p>•</p>
-				</li>
+				<!-- This where JS loops the subscriptions list -->
 			</ul>
 			<a href="https://m.youtube.com/feed/channels"><i class="material-icons">keyboard_arrow_right</i></a>
 		</section>
-		<section id="subscriptions-feed">
+		<section id="subscriptions-feed" aria-label="[]">
 			<!-- This where JS loops the subscription video's -->
 		</section>
 	</main>
